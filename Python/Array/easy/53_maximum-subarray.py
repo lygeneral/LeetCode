@@ -18,8 +18,8 @@
 class Solution:
     def maxSubArray(self, nums):
         '''
-        @describe: 遍历数组，在数组前统计元素sum大于0时继续统计，否则另起炉灶，以该元素为起点计算sum
-                   计算sum后将sum与之前记录的max比较取最大
+        @describe:  遍历数组，在数组前统计元素sum大于0时继续统计，否则另起炉灶，以该元素为起点计算sum
+                    计算sum后将sum与之前记录的max比较取最大
         '''
         sum_tmp = 0
         res = nums[0]

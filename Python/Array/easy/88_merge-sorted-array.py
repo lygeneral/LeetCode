@@ -44,8 +44,8 @@ class Solution:
 class Solution2:
     def merge(self, nums1, m, nums2, n):
         '''
-        @describe: 三个指针，其中两个指向m和n元素，一个指向合并结果的数组，逆向比较并合并结果
-                   m所有元素与n合并后，n未完成合并，则直接将n中剩余元素覆盖至结果数组中
+        @describe:  三个指针，其中两个指向m和n元素，一个指向合并结果的数组，逆向比较并合并结果
+                    m所有元素与n合并后，n未完成合并，则直接将n中剩余元素覆盖至结果数组中
         '''
         mIndex = m - 1
         nIndex = n - 1
