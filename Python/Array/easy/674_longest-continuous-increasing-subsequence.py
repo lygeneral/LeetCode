@@ -32,6 +32,11 @@
 
 class Solution:
     def findLengthOfLCIS(self, nums):
+        '''
+        @describe: 遍历，遇到非递增时复位切割区域，重新计数，统计所有区域的长度，选择最大值
+        @param nums: 数组
+        @return: 最长连续递增序列长度
+        '''
         if len(nums) == 0:
             return 0
         cnt = 1

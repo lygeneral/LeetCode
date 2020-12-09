@@ -35,8 +35,8 @@ class Solution:
                     1.将nums[i]即2放大为nums[i-1]即4，并保证nums[i+1]的数不能比4小，即nums[i+1]>=nums[i-1]
                     2.将nums[i-1]即4缩小为nums[i]即2，并保证nums[i-2]的数不能比2大，即nums[i-2]<=nums[i-1]
                     若1和2均不能实现则说明无法将数组调整为非递减数组
-        @param nums:
-        @return:
+        @param nums: 数组
+        @return: 是否可以在只改变一个元素的情况下将其变为非递减数列
         '''
         cnt = 0
         for i in range(1, len(nums)):
